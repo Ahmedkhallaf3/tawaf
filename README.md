@@ -1,31 +1,62 @@
 # Tawaf 🏨
 
-A hotel booking system built with Laravel that allows users to search, book, and pay for reservations.
+A hotel booking platform built with Laravel that allows users to search hotels, make reservations, and complete secure online payments.
 
-## 🔥 Features
-- Hotel search & filtering
-- Booking & reservation system
-- Payment gateway integration
-- Admin dashboard for managing bookings
-- User authentication
+## Features
 
-## 🛠️ Tech Stack
-- PHP (Laravel)
+- User Authentication
+- Hotel Search & Filtering
+- Booking & Reservation Management
+- Payment Gateway Integration
+- Admin Dashboard
+- Reservation Validation
+
+## Tech Stack
+
+- PHP
+- Laravel
 - MySQL
 - RESTful APIs
 - Payment Integration
 
-## 🚀 Key Highlights
-- Secure payment processing
-- Clean booking logic and validation
-- Scalable system design
+## Architecture
 
-## ▶️ How to Run
-1. Clone the repository
-2. Run `composer install`
-3. Setup `.env`
-4. Run migrations
-5. Start server
+- MVC Architecture
+- RESTful API Design
+- SOLID Principles
+- Laravel Best Practices
 
-## 📌 Notes
-This project demonstrates booking systems and payment integration.
+## Key Highlights
+
+- Implemented hotel reservation workflow with booking validation.
+- Integrated secure online payment processing.
+- Built scalable RESTful APIs using Laravel.
+- Developed admin dashboard for managing hotels and reservations.
+
+## API Modules
+
+- Authentication
+- Hotel Management
+- Reservations
+- Payments
+- User Profiles
+
+## Installation
+
+```bash
+git clone <repository-url>
+
+composer install
+
+cp .env.example .env
+
+php artisan key:generate
+
+php artisan migrate
+
+php artisan serve
+```
+
+## Notes
+
+This project demonstrates backend development concepts including booking systems, payment integration, authentication, and API design using Laravel.
